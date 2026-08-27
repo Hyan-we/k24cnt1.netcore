@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E663DB88-59DD-A2F0-AB26-382D6250CE68}|..\\NhaLesson01MVC\\NhaLesson01MVC.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson01mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{05DD1001-25CF-4DF9-A3C0-0442B1376D1E}|..\\NhaLesson01MVC\\NhaLesson01MVC.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson01mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D299710-19F9-7CE6-846E-2ABAC9D15B9F}|NhaLesson01.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D299710-19F9-7CE6-846E-2ABAC9D15B9F}|NhaLesson01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C2FC54F-12AB-4AD4-A944-85313064B08D}|NhaLesson01.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C2FC54F-12AB-4AD4-A944-85313064B08D}|NhaLesson01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +46,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T07:21:47.066Z"
+              "WhenOpened": "2026-08-21T07:21:47.066Z",
+              "EditorCaption": ""
             }
           ]
         }

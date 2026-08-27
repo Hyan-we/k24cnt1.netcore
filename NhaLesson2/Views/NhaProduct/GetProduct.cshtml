@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "GetProduct";
+}
+
+<h1>GetProduct</h1>
+<h2>Lay tu viewData</h2>
+@{
+    var productVD = ViewData["productVD"] as NhaLesson2.Models.NhaProduct;
+}
+<div class="alert alert-danger">
+    <p>Ma:@productVD.ProductId</p>
+    <p>TenSp:@productVD.ProductName</p>
+    <p>Nam:@productVD.YearRelease</p>
+    <p>Gia:@productVD.Price</p>
+</div>
+<hr/>
+<h2>Du lieu lay tu viewbag</h2>
+<div class="alert alert-info">
+    <p>Ma:@ViewBag.productVB.ProductId</p>
+    <p>TenSp:@ViewBag.productVB.ProductName</p>
+    <p>Nam:@ViewBag.productVB.YearRelease</p>
+    <p>Gia:@ViewBag.productVB.Price</p>
+</div>
