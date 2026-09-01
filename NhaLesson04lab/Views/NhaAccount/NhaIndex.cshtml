@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Danh sach tai khoan";
+    var NhaAccounts = ViewBag.NhaAccounts;
+}
+
+<div class="row">
+    @foreach (NhaAccount item in NhaAccounts)
+    {
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="img-fluid">
+                        <img src="@item.Avatar" alt="@item.Name" />
+                    </div>
+                    <div class="">
+                        <h3>@item.Name</h3>
+                        <p>@item.Bio</p>
+                        <a href="#" class="btn btn-success btn-block">Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>

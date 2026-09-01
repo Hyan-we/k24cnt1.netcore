@@ -1,0 +1,5 @@
+C:\K24CNT1\k24cnt1.netcore\NhaLesson04lab\wwwroot\Image\1.png
+C:\K24CNT1\k24cnt1.netcore\NhaLesson04lab\wwwroot\Image\2.png
+C:\K24CNT1\k24cnt1.netcore\NhaLesson04lab\wwwroot\Image\3.png
+C:\K24CNT1\k24cnt1.netcore\NhaLesson04lab\wwwroot\Image\4.png
+C:\K24CNT1\k24cnt1.netcore\NhaLesson04lab\wwwroot\Image\5.png
