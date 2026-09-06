@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "NhaLesson05Views/1.0.0": {
+        "runtime": {
+          "NhaLesson05Views.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NhaLesson05Views/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
