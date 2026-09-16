@@ -1,0 +1,48 @@
+﻿@model NhaLesson08Models.Models.NhaMember
+
+@{
+    ViewData["Title"] = "Thông tin chi tiết thành viên";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h4>NhaMember</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaMemberId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaMemberId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaUserName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaUserName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaPassword)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaPassword)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaFullName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaFullName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaEmail)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaEmail)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Sửa", "NhaEdit", new { id = Model.NhaMemberId }) |
+    <a asp-action="Index">Back to List</a>
+</div>

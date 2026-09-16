@@ -1,0 +1,53 @@
+﻿@model NhaLesson08Models.Models.NhaMember
+
+@{
+    ViewData["Title"] = "NhaDelete";
+}
+
+<h1>NhaDelete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>NhaMember</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaMemberId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaMemberId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaUserName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaUserName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaPassword)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaPassword)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaFullName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaFullName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaEmail)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaEmail)
+        </dd>
+    </dl>
+
+    <form asp-action="NhaDeleted">
+        <input name="id" value="@Model.NhaMemberId" type="hidden" />
+
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
+

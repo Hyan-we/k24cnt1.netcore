@@ -1,0 +1,84 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NhaLesson08Models
+build_property.RootNamespace = NhaLesson08Models
+build_property.ProjectDir = C:\K24CNT1\k24cnt1.netcore\NhaLesson08Models\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\K24CNT1\k24cnt1.netcore\NhaLesson08Models
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/K24CNT1/k24cnt1.netcore/NhaLesson08Models/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K24CNT1/k24cnt1.netcore/NhaLesson08Models/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K24CNT1/k24cnt1.netcore/NhaLesson08Models/Views/NhaHome/NhaAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhSG9tZVxOaGFBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K24CNT1/k24cnt1.netcore/NhaLesson08Models/Views/NhaHome/NhaIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhSG9tZVxOaGFJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K24CNT1/k24cnt1.netcore/NhaLesson08Models/Views/NhaHome/NhaPrivacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhSG9tZVxOaGFQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K24CNT1/k24cnt1.netcore/NhaLesson08Models/Views/NhaMember/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhTWVtYmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K24CNT1/k24cnt1.netcore/NhaLesson08Models/Views/NhaMember/NhaCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhTWVtYmVyXE5oYUNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K24CNT1/k24cnt1.netcore/NhaLesson08Models/Views/NhaMember/NhaDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhTWVtYmVyXE5oYURlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K24CNT1/k24cnt1.netcore/NhaLesson08Models/Views/NhaMember/NhaDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhTWVtYmVyXE5oYURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K24CNT1/k24cnt1.netcore/NhaLesson08Models/Views/NhaMember/NhaEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhTWVtYmVyXE5oYUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K24CNT1/k24cnt1.netcore/NhaLesson08Models/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K24CNT1/k24cnt1.netcore/NhaLesson08Models/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K24CNT1/k24cnt1.netcore/NhaLesson08Models/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K24CNT1/k24cnt1.netcore/NhaLesson08Models/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/K24CNT1/k24cnt1.netcore/NhaLesson08Models/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-88di5364yv
