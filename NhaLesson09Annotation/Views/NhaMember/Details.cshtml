@@ -1,0 +1,54 @@
+@model NhaLesson09Annotation.Models.DataModels.NhaMember
+
+@{
+    ViewData["Title"] = "Chi tiết thành viên";
+}
+
+<h1 class="my-3">@ViewData["Title"]</h1>
+
+<div>
+    <h4>NhaMember</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.NhaMemberId)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.NhaMemberId)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.NhaUserName)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.NhaUserName)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.NhaFullName)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.NhaFullName)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.NhaEmail)
+        </dt>
+        <dd class="col-sm-9">
+            <a href="mailto:@Model.NhaEmail">@Html.DisplayFor(model => model.NhaEmail)</a>
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.NhaPhoneNumber)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.NhaPhoneNumber)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.NhaBirthday)
+        </dt>
+        <dd class="col-sm-9">
+            @Model.NhaBirthday.ToString("dd/MM/yyyy")
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.NhaMemberId" class="btn btn-warning">Sửa</a>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Quay lại danh sách</a>
+</div>

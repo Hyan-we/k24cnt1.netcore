@@ -1,0 +1,80 @@
+@model IEnumerable<NhaLesson09Annotation.Models.DataModels.NhaMember>
+
+@{
+    ViewData["Title"] = "Danh sách thành viên";
+}
+
+<h1 class="my-3">@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Tạo mới thành viên</a>
+</p>
+<table class="table table-bordered table-striped table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NhaMemberId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhaUserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhaPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhaEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhaPhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhaFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NhaBirthday)
+            </th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+@if (Model != null && Model.Any())
+{
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhaMemberId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhaUserName)
+            </td>
+            <td>
+                @(new string('•', item.NhaPassword?.Length ?? 6))
+            </td>
+            <td>
+                <a href="mailto:@item.NhaEmail">@Html.DisplayFor(modelItem => item.NhaEmail)</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NhaPhoneNumber)
+            </td>
+            <td>
+                <strong>@Html.DisplayFor(modelItem => item.NhaFullName)</strong>
+            </td>
+            <td>
+                @item.NhaBirthday.ToString("dd/MM/yyyy")
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.NhaMemberId" class="btn btn-sm btn-outline-warning">Sửa</a>
+                <a asp-action="Details" asp-route-id="@item.NhaMemberId" class="btn btn-sm btn-outline-info">Chi tiết</a>
+                <a asp-action="Delete" asp-route-id="@item.NhaMemberId" class="btn btn-sm btn-outline-danger">Xóa</a>
+            </td>
+        </tr>
+    }
+}
+else
+{
+    <tr>
+        <td colspan="8" class="text-center text-muted">Chưa có thành viên nào trong danh sách.</td>
+    </tr>
+}
+    </tbody>
+</table>

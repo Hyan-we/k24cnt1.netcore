@@ -1,0 +1,68 @@
+@model NhaLesson09Annotation.Models.DataViewModels.NhaMemberRegister
+
+@{
+    ViewData["Title"] = "Đăng ký thành viên";
+}
+
+<h1 class="my-3">@ViewData["Title"]</h1>
+
+<h4>NhaMemberRegister</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group mb-3">
+                <label asp-for="NhaMemberId" class="control-label"></label>
+                <input asp-for="NhaMemberId" class="form-control" placeholder="Nhập mã số (tùy chọn)" />
+                <span asp-validation-for="NhaMemberId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="NhaUserName" class="control-label"></label>
+                <input asp-for="NhaUserName" class="form-control" placeholder="Nhập tên đăng nhập (3 - 20 ký tự)" />
+                <span asp-validation-for="NhaUserName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="NhaPassword" class="control-label"></label>
+                <input asp-for="NhaPassword" class="form-control" type="password" placeholder="Nhập mật khẩu (tối thiểu 6 ký tự)" />
+                <span asp-validation-for="NhaPassword" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="NhaFullName" class="control-label"></label>
+                <input asp-for="NhaFullName" class="form-control" placeholder="Nhập họ và tên đầy đủ" />
+                <span asp-validation-for="NhaFullName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="NhaEmail" class="control-label"></label>
+                <input asp-for="NhaEmail" class="form-control" type="email" placeholder="ví dụ: hyanh173@gmail.com" />
+                <span asp-validation-for="NhaEmail" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="NhaPhoneNumber" class="control-label"></label>
+                <input asp-for="NhaPhoneNumber" class="form-control" placeholder="ví dụ: 0987654321" />
+                <span asp-validation-for="NhaPhoneNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="NhaBirthday" class="control-label"></label>
+                <input asp-for="NhaBirthday" class="form-control" type="date" />
+                <span asp-validation-for="NhaBirthday" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <input type="submit" value="Tạo mới" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary ms-2">Quay lại danh sách</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

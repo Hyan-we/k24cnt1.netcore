@@ -1,0 +1,60 @@
+@model NhaLesson09Annotation.Models.DataModels.NhaMember
+
+@{
+    ViewData["Title"] = "Xác nhận xóa thành viên";
+}
+
+<h1 class="my-3 text-danger">@ViewData["Title"]</h1>
+
+<div class="alert alert-warning">
+    <h5>Bạn có chắc chắn muốn xóa thành viên này không?</h5>
+</div>
+
+<div>
+    <h4>NhaMember</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.NhaMemberId)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.NhaMemberId)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.NhaUserName)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.NhaUserName)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.NhaFullName)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.NhaFullName)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.NhaEmail)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.NhaEmail)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.NhaPhoneNumber)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.NhaPhoneNumber)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.NhaBirthday)
+        </dt>
+        <dd class="col-sm-9">
+            @Model.NhaBirthday.ToString("dd/MM/yyyy")
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" name="id" value="@Model.NhaMemberId" />
+        <input type="submit" value="Xác nhận xóa" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary ms-2">Hủy bỏ</a>
+    </form>
+</div>
