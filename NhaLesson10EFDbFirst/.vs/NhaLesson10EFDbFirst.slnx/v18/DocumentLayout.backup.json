@@ -1,0 +1,238 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson10efdbfirst\\controllers\\nhamemberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|solutionrelative:controllers\\nhamemberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson10efdbfirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson10efdbfirst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson10efdbfirst\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson10efdbfirst\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson10efdbfirst\\models\\nhalesson10efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|solutionrelative:models\\nhalesson10efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson10efdbfirst\\views\\nhamember\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|solutionrelative:views\\nhamember\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson10efdbfirst\\views\\nhamember\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|solutionrelative:views\\nhamember\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson10efdbfirst\\views\\nhamember\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|solutionrelative:views\\nhamember\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson10efdbfirst\\views\\nhamember\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|solutionrelative:views\\nhamember\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson10efdbfirst\\views\\nhamember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|solutionrelative:views\\nhamember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson10efdbfirst\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nhalesson10efdbfirst\\models\\nhamember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1658DE-3488-A84A-29DF-C1585D46A7AD}|NhaLesson10EFDbFirst.csproj|solutionrelative:models\\nhamember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\NhaMember\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhaMember\\Delete.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\NhaMember\\Delete.cshtml",
+              "RelativeToolTip": "Views\\NhaMember\\Delete.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-25T14:41:59.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\NhaMember\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhaMember\\Create.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\NhaMember\\Create.cshtml",
+              "RelativeToolTip": "Views\\NhaMember\\Create.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswDUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-25T14:41:27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\NhaMember\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhaMember\\Index.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\NhaMember\\Index.cshtml",
+              "RelativeToolTip": "Views\\NhaMember\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-25T14:40:59.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-25T14:39:08.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\NhaMember\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhaMember\\Edit.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\NhaMember\\Edit.cshtml",
+              "RelativeToolTip": "Views\\NhaMember\\Edit.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-25T14:42:50.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NhaLesson10EFDbContext.cs",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Models\\NhaLesson10EFDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\NhaLesson10EFDbContext.cs",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Models\\NhaLesson10EFDbContext.cs",
+              "RelativeToolTip": "Models\\NhaLesson10EFDbContext.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T14:37:32.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NhaMembersController.cs",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Controllers\\NhaMembersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhaMembersController.cs",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Controllers\\NhaMembersController.cs",
+              "RelativeToolTip": "Controllers\\NhaMembersController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAApwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T14:35:43.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\NhaMember\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhaMember\\Details.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\NhaMember\\Details.cshtml",
+              "RelativeToolTip": "Views\\NhaMember\\Details.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-25T14:42:24.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T15:00:28.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-25T14:56:38.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-25T14:56:48.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-25T14:39:07.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NhaMember.cs",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Models\\NhaMember.cs",
+              "RelativeDocumentMoniker": "Models\\NhaMember.cs",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\Models\\NhaMember.cs",
+              "RelativeToolTip": "Models\\NhaMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T14:36:22.417Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
