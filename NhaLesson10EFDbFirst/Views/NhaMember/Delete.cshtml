@@ -1,7 +1,7 @@
 ﻿@model NhaLesson10EFDbFirst.Models.NhaMember
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Delete - Xoa thanh vien";
 }
 
 <h1>Delete</h1>
@@ -48,11 +48,11 @@
             @Html.DisplayFor(model => model.NhaStatus)
         </dd>
     </dl>
-
+    
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
     </form>
 </div>
 

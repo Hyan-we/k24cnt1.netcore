@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Thong tin sinh vien";
+}
+
+<div class="container my-4">
+    <div class="card shadow-sm border-0">
+        <div class="card-header bg-primary text-white py-3">
+            <h3 class="card-title mb-0"><i class="bi bi-person-circle me-2"></i>Thong tin sinh vien thuc hien</h3>
+        </div>
+        <div class="card-body p-4">
+            <div class="row align-items-center">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <div class="rounded-circle bg-light d-inline-flex justify-content-center align-items-center" style="width: 140px; height: 140px; border: 3px solid #0d6efd;">
+                        <span class="fs-1 fw-bold text-primary">NHA</span>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <table class="table table-bordered mb-0">
+                        <tbody>
+                            <tr>
+                                <th style="width: 25%;" class="bg-light">Ho va ten:</th>
+                                <td class="fw-bold text-primary fs-5">Nguyen Huy Anh</td>
+                            </tr>
+                            <tr>
+                                <th class="bg-light">Ma sinh vien:</th>
+                                <td><span class="badge bg-dark fs-6">2410900003</span></td>
+                            </tr>
+                            <tr>
+                                <th class="bg-light">Lop:</th>
+                                <td><strong>K24CNT1</strong></td>
+                            </tr>
+                            <tr>
+                                <th class="bg-light">Email:</th>
+                                <td><a href="mailto:hyanh173@gmail.com">hyanh173@gmail.com</a></td>
+                            </tr>
+                            <tr>
+                                <th class="bg-light">Mon hoc:</th>
+                                <td>Lap trinh Web voi ASP.NET Core (.NET Core)</td>
+                            </tr>
+                            <tr>
+                                <th class="bg-light">Bai thuc hanh:</th>
+                                <td><strong>NhaLesson10EFDbFirst</strong> - Entity Framework Core Database First</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer bg-light p-3">
+            <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary me-2">Ve trang chu</a>
+            <a asp-controller="NhaMembers" asp-action="Index" class="btn btn-primary">Quan ly thanh vien</a>
+        </div>
+    </div>
+</div>
+

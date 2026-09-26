@@ -1,8 +1,55 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Trang chu";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="p-5 mb-4 bg-light rounded-3 shadow-sm border">
+    <div class="container-fluid py-2">
+        <h1 class="display-5 fw-bold text-primary">NhaLesson10EFDbFirst</h1>
+        <p class="col-md-9 fs-5 text-muted">
+            Bai thuc hanh ASP.NET Core - Entity Framework Core Database First (EF Core DbFirst)
+        </p>
+        <hr class="my-4" />
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-primary">
+                    <div class="card-header bg-primary text-white fw-bold">
+                        Thong tin sinh vien thuc hien
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>Ho va ten:</strong> Nguyen Huy Anh</li>
+                            <li class="list-group-item"><strong>Ma sinh vien:</strong> 2410900003</li>
+                            <li class="list-group-item"><strong>Lop:</strong> K24CNT1</li>
+                            <li class="list-group-item"><strong>Email:</strong> hyanh173@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 pt-0">
+                        <a asp-controller="Home" asp-action="NhaAbout" class="btn btn-outline-primary btn-sm">Xem chi tiet sinh vien &raquo;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-success">
+                    <div class="card-header bg-success text-white fw-bold">
+                        Chuc nang quan ly thanh vien
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Ap dung Entity Framework Core Database First ket noi co so du lieu SQL Server:
+                        </p>
+                        <ul>
+                            <li>Bang co so du lieu: <code>NhaMember</code></li>
+                            <li>Context: <code>NhaLesson10EfdbContext</code></li>
+                            <li>Day du chuc nang CRUD: Create, Read, Update, Delete</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 pt-0">
+                        <a asp-controller="NhaMembers" asp-action="Index" class="btn btn-success btn-sm">Xem danh sach thanh vien &raquo;</a>
+                        <a asp-controller="NhaMembers" asp-action="Create" class="btn btn-outline-success btn-sm">Them moi thanh vien &raquo;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+

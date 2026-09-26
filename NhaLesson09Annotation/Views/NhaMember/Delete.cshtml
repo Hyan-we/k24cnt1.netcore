@@ -1,13 +1,13 @@
-@model NhaLesson09Annotation.Models.DataModels.NhaMember
+﻿@model NhaLesson09Annotation.Models.DataModels.NhaMember
 
 @{
-    ViewData["Title"] = "Xác nhận xóa thành viên";
+    ViewData["Title"] = "Xac nhan xoa thanh vien";
 }
 
 <h1 class="my-3 text-danger">@ViewData["Title"]</h1>
 
 <div class="alert alert-warning">
-    <h5>Bạn có chắc chắn muốn xóa thành viên này không?</h5>
+    <h5>Ban co chac chan muon xoa thanh vien nay khong?</h5>
 </div>
 
 <div>
@@ -54,7 +54,8 @@
     
     <form asp-action="Delete">
         <input type="hidden" name="id" value="@Model.NhaMemberId" />
-        <input type="submit" value="Xác nhận xóa" class="btn btn-danger" />
-        <a asp-action="Index" class="btn btn-secondary ms-2">Hủy bỏ</a>
+        <input type="submit" value="Xac nhan xoa" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary ms-2">Huy bo</a>
     </form>
 </div>
+

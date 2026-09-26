@@ -1,4 +1,4 @@
-namespace NhaLesson09Annotation.Models
+﻿namespace NhaLesson09Annotation.Models
 {
     public class ErrorViewModel
     {
@@ -7,3 +7,4 @@ namespace NhaLesson09Annotation.Models
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
+

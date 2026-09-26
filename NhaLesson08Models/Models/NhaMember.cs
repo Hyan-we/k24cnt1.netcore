@@ -8,7 +8,7 @@ namespace NhaLesson08Models.Models
         public string NhaUserName { get; set; }
         public string NhaPassword { get; set; }
 
-        [DisplayName("Họ và tên")]
+        [DisplayName("Ho va ten")]
         public string NhaFullName { get; set; }
         public string NhaEmail { get; set; }
     }

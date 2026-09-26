@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - NguyenHuyAnh_2410900003_exam</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        :root {
+            --nha-primary: #0d6efd;
+            --nha-gradient-start: #0d6efd;
+            --nha-gradient-end: #6610f2;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fb;
+            color: #2c3e50;
+        }
+
+        .navbar-custom {
+            background: linear-gradient(135deg, var(--nha-gradient-start), var(--nha-gradient-end));
+            box-shadow: 0 2px 12px rgba(13, 110, 253, 0.25);
+        }
+
+        .navbar-brand-custom {
+            font-weight: 800;
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-link-custom {
+            color: rgba(255, 255, 255, 0.85) !important;
+            font-weight: 500;
+            padding: 0.5rem 1rem !important;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .nav-link-custom:hover,
+        .nav-link-custom.active {
+            color: #fff !important;
+            background: rgba(255, 255, 255, 0.18);
+        }
+
+        .navbar-student-badge {
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 20px;
+            padding: 3px 12px;
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.9);
+        }
+
+        .card {
+            transition: box-shadow 0.2s ease;
+        }
+
+        .footer-custom {
+            background: linear-gradient(135deg, var(--nha-gradient-start), var(--nha-gradient-end));
+            color: rgba(255,255,255,0.85);
+            padding: 1rem 0;
+            font-size: 0.85rem;
+        }
+
+        .footer-custom a {
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+        }
+
+        .footer-custom a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .main-content {
+            min-height: calc(100vh - 130px);
+        }
+
+        .breadcrumb-item a {
+            color: var(--nha-primary);
+        }
+
+        .table-hover tbody tr:hover {
+            background-color: rgba(13, 110, 253, 0.04);
+        }
+
+        .table-responsive::-webkit-scrollbar {
+            height: 5px;
+        }
+        .table-responsive::-webkit-scrollbar-track { background: #f1f1f1; }
+        .table-responsive::-webkit-scrollbar-thumb { background: #c7d2fe; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom py-2">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand navbar-brand-custom text-white d-flex align-items-center gap-2"
+               asp-area="" asp-controller="Home" asp-action="Index">
+                <i class="bi bi-mortarboard-fill fs-5"></i>
+                <span>NhaSV Exam</span>
+            </a>
+
+            <button class="navbar-toggler border-0" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarMain"
+                    aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list text-white fs-4"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1 ps-2 ps-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" asp-area="" asp-controller="Home" asp-action="Index">
+                            <i class="bi bi-house-door-fill me-1"></i>Trang chu
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" asp-area="" asp-controller="Home" asp-action="NhaAbout">
+                            <i class="bi bi-person-badge-fill me-1"></i>Thong tin sinh vien
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" asp-area="" asp-controller="NhaStudents" asp-action="Index">
+                            <i class="bi bi-people-fill me-1"></i>Danh sach sinh vien
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="d-flex align-items-center gap-2">
+                    <span class="navbar-student-badge">
+                        <i class="bi bi-person-circle me-1"></i>
+                        Nguyen Huy Anh &nbsp;|&nbsp; MSSV: 2410900003
+                    </span>
+                    <a asp-controller="NhaStudents" asp-action="Create"
+                       class="btn btn-sm btn-light text-primary fw-semibold rounded-pill px-3 shadow-sm">
+                        <i class="bi bi-person-plus-fill me-1"></i>Them SV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <main role="main" class="pb-4">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer-custom mt-auto">
+        <div class="container-fluid px-4">
+            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                <div>
+                    <i class="bi bi-mortarboard-fill me-1"></i>
+                    <strong>NguyenHuyAnh_2410900003_exam</strong>
+                </div>
+                <div class="text-center d-none d-md-block">
+                    <span>CSDL: <code class="text-white">NhaStudent_2410900003_Db</code></span>
+                    &nbsp;|&nbsp;
+                    <span>Sinh vien: <strong>Nguyen Huy Anh</strong> — MSSV: <strong>2410900003</strong></span>
+                </div>
+                <div>
+                    &copy; @DateTime.Now.Year &nbsp;
+                    <a asp-controller="Home" asp-action="NhaAbout">Thong tin SV</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

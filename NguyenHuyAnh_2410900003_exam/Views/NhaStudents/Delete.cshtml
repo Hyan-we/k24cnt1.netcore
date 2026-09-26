@@ -1,0 +1,107 @@
+@model NguyenHuyAnh_2410900003_exam.Models.NhaStudent
+
+@{
+    ViewData["Title"] = "Xoa Sinh Vien - " + Model.NhaName;
+}
+
+<div class="container py-4">
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb bg-light p-3 rounded-3 border">
+            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index" class="text-decoration-none"><i class="bi bi-house-door-fill"></i> Trang chu</a></li>
+            <li class="breadcrumb-item"><a asp-action="Index" class="text-decoration-none">Danh sach sinh vien</a></li>
+            <li class="breadcrumb-item active text-danger" aria-current="page">Xoa: @Model.NhaName</li>
+        </ol>
+    </nav>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-7">
+            <div class="alert alert-danger border-0 shadow-sm rounded-4 d-flex align-items-start gap-3 mb-4">
+                <i class="bi bi-exclamation-triangle-fill fs-3 mt-1"></i>
+                <div>
+                    <h6 class="fw-bold mb-1">Canh bao: Thao tac khong the hoan tac!</h6>
+                    <p class="mb-0 small">Ban dang chuan bi xoa vinh vien sinh vien nay khoi co so du lieu.</p>
+                </div>
+            </div>
+
+            <div class="card border-danger border-2 shadow-sm rounded-4 overflow-hidden">
+                <div class="card-header bg-danger text-white py-3 px-4">
+                    <h5 class="card-title mb-0 fw-bold">
+                        <i class="bi bi-trash-fill me-2"></i>Xac Nhan Xoa Sinh Vien
+                    </h5>
+                    <small class="text-white-50">ID: #@Model.Id</small>
+                </div>
+
+                <div class="card-body p-4">
+                    <div class="p-3 bg-danger-subtle rounded-3 border border-danger-subtle mb-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center me-3 fw-bold shadow-sm" style="width:55px;height:55px;font-size:1.4rem;">
+                                @(Model.NhaName.Trim().Substring(0, 1).ToUpper())
+                            </div>
+                            <div>
+                                <h5 class="fw-bold text-danger mb-1">@Model.NhaName</h5>
+                                <span class="badge bg-danger text-white px-3 rounded-pill">Se bi xoa vinh vien</span>
+                            </div>
+                        </div>
+
+                        <div class="row g-2 small">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center text-dark">
+                                    <i class="bi bi-hash me-2 text-danger"></i>
+                                    <span><strong>ID:</strong> @Model.Id</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center text-dark">
+                                    <i class="bi bi-gender-ambiguous me-2 text-danger"></i>
+                                    <span><strong>Gioi tinh:</strong> @Model.GenderText</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center text-dark">
+                                    <i class="bi bi-calendar-event me-2 text-danger"></i>
+                                    <span><strong>Ngay sinh:</strong> @Model.NhaBirthDay.ToString("dd/MM/yyyy")</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center text-dark">
+                                    <i class="bi bi-telephone me-2 text-danger"></i>
+                                    <span><strong>SDT:</strong> @Model.NhaPhone</span>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-center text-dark">
+                                    <i class="bi bi-envelope me-2 text-danger"></i>
+                                    <span><strong>Email:</strong> @Model.NhaEmail</span>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-center text-dark">
+                                    <i class="bi bi-circle-fill me-2 @(Model.NhaActive ? "text-success" : "text-secondary")"></i>
+                                    <span><strong>Trang thai:</strong> @Model.StatusText</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form asp-action="Delete" method="post">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" asp-for="Id" />
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex gap-2">
+                                <a asp-action="Index" class="btn btn-outline-secondary px-4 py-2 rounded-pill">
+                                    <i class="bi bi-arrow-left me-1"></i>Huy bo
+                                </a>
+                                <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-outline-info px-4 py-2 rounded-pill">
+                                    <i class="bi bi-eye-fill me-1"></i>Xem lai
+                                </a>
+                            </div>
+                            <button type="submit" class="btn btn-danger px-4 py-2 rounded-pill fw-bold shadow-sm">
+                                <i class="bi bi-trash-fill me-1"></i>Xac Nhan Xoa
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

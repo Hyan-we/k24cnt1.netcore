@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using NhaLesson05Views.Models;
 using System.Diagnostics;
 
@@ -32,3 +32,4 @@ namespace NhaLesson05Views.Controllers
         }
     }
 }
+

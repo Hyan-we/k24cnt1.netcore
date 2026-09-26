@@ -1,4 +1,4 @@
-namespace NhaLesson05Views.Models
+﻿namespace NhaLesson05Views.Models
 {
     public class ErrorViewModel
     {
@@ -7,3 +7,4 @@ namespace NhaLesson05Views.Models
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
+

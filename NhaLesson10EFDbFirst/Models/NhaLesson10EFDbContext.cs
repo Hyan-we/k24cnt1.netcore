@@ -1,7 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Reflection.Emit;
+using Microsoft.EntityFrameworkCore;
 
 namespace NhaLesson10EFDbFirst.Models;
 
@@ -18,9 +17,9 @@ public partial class NhaLesson10EfdbContext : DbContext
 
     public virtual DbSet<NhaMember> NhaMembers { get; set; }
 
-    //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-    //        => optionsBuilder.UseSqlServer("Server=.\\SQL2019;Database=NhaLesson10EFDb;uid=sa;pwd=1234$; MultipleActiveResultSets=True; TrustServerCertificate=True ");
+//    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+//        => optionsBuilder.UseSqlServer("Server=.;Database=NhaLesson10EFDb;Trusted_Connection=True;MultipleActiveResultSets=True;TrustServerCertificate=True ");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -49,3 +48,4 @@ public partial class NhaLesson10EfdbContext : DbContext
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }
+

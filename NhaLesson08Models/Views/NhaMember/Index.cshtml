@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<NhaLesson08Models.Models.NhaMember>
 
 @{
-    ViewData["Title"] = "Danh sách thành viên";
+    ViewData["Title"] = "Danh sach thanh vien";
 }
 
 <div class="card p-3">
     <div class="card-header">
         <h1>@ViewData["Title"]</h1>
-        <a asp-action="NhaCreate">Thêm  mới</a>
+        <a asp-action="NhaCreate">Them  moi</a>
     </div>
 
     <div class="card-body">
@@ -52,9 +52,9 @@
                             @Html.DisplayFor(modelItem => item.NhaEmail)
                         </td>
                         <td>
-                            @Html.ActionLink("Sửa", "NhaEdit", new { id = item.NhaMemberId }) |
-                            @Html.ActionLink("Xem chi tiết", "NhaDetails", new { id = item.NhaMemberId }) |
-                            @Html.ActionLink("Xóa", "NhaDelete", new { id = item.NhaMemberId })
+                            @Html.ActionLink("Sua", "NhaEdit", new { id = item.NhaMemberId }) |
+                            @Html.ActionLink("Xem chi tiet", "NhaDetails", new { id = item.NhaMemberId }) |
+                            @Html.ActionLink("Xoa", "NhaDelete", new { id = item.NhaMemberId })
                         </td>
                     </tr>
                 }

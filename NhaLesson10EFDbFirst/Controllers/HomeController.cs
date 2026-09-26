@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using NhaLesson10EFDbFirst.Models;
 using System.Diagnostics;
 
@@ -16,6 +16,11 @@ namespace NhaLesson10EFDbFirst.Controllers
             return View();
         }
 
+        public IActionResult NhaAbout()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
@@ -23,3 +28,4 @@ namespace NhaLesson10EFDbFirst.Controllers
         }
     }
 }
+

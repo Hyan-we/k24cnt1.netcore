@@ -1,46 +1,47 @@
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace NhaLesson09Annotation.Models.DataViewModels
 {
     /// <summary>
     /// Data Annotation - Validation
-    /// Sinh viên: Nguyen Huy Anh - MSV: 2410900003 - Lớp: K24CNT1
+    /// Sinh vien: Nguyen Huy Anh - MSV: 2410900003 - Lop: K24CNT1
     /// </summary>
     public class NhaMemberRegister
     {
-        [DisplayName("Mã thành viên")]
+        [DisplayName("Ma thanh vien")]
         public int? NhaMemberId { get; set; }
 
-        [DisplayName("Tên đăng nhập")]
-        [Required(ErrorMessage = "Tên đăng nhập không để trống")]
-        [StringLength(20, MinimumLength = 3, ErrorMessage = "Tên đăng nhập có độ dài trong khoảng 3 - 20 ký tự")]
+        [DisplayName("Ten dang nhap")]
+        [Required(ErrorMessage = "Ten dang nhap khong de trong")]
+        [StringLength(20, MinimumLength = 3, ErrorMessage = "Ten dang nhap co do dai trong khoang 3 - 20 ky tu")]
         public string NhaUserName { get; set; } = string.Empty;
 
-        [DisplayName("Mật khẩu")]
-        [Required(ErrorMessage = "Mật khẩu không được để trống")]
+        [DisplayName("Mat khau")]
+        [Required(ErrorMessage = "Mat khau khong duoc de trong")]
         [DataType(DataType.Password)]
-        [StringLength(30, MinimumLength = 6, ErrorMessage = "Mật khẩu có độ dài trong khoảng 6 - 30 ký tự")]
+        [StringLength(30, MinimumLength = 6, ErrorMessage = "Mat khau co do dai trong khoang 6 - 30 ky tu")]
         public string NhaPassword { get; set; } = string.Empty;
 
-        [DisplayName("Hộp thư (Email)")]
-        [Required(ErrorMessage = "Email không được để trống")]
-        [EmailAddress(ErrorMessage = "Email không đúng định dạng")]
+        [DisplayName("Hop thu (Email)")]
+        [Required(ErrorMessage = "Email khong duoc de trong")]
+        [EmailAddress(ErrorMessage = "Email khong dung dinh dang")]
         public string NhaEmail { get; set; } = string.Empty;
 
-        [DisplayName("Số điện thoại")]
-        [Required(ErrorMessage = "Số điện thoại không được để trống")]
-        [RegularExpression(@"^0\d{9,10}$", ErrorMessage = "Số điện thoại phải bắt đầu bằng số 0 và có 10-11 chữ số")]
+        [DisplayName("So dien thoai")]
+        [Required(ErrorMessage = "So dien thoai khong duoc de trong")]
+        [RegularExpression(@"^0\d{9,10}$", ErrorMessage = "So dien thoai phai bat dau bang so 0 va co 10-11 chu so")]
         public string NhaPhoneNumber { get; set; } = string.Empty;
 
-        [DisplayName("Họ và tên")]
-        [Required(ErrorMessage = "Họ và tên không được để trống")]
-        [StringLength(50, MinimumLength = 2, ErrorMessage = "Họ và tên có độ dài trong khoảng 2 - 50 ký tự")]
+        [DisplayName("Ho va ten")]
+        [Required(ErrorMessage = "Ho va ten khong duoc de trong")]
+        [StringLength(50, MinimumLength = 2, ErrorMessage = "Ho va ten co do dai trong khoang 2 - 50 ky tu")]
         public string NhaFullName { get; set; } = string.Empty;
 
-        [DisplayName("Ngày sinh")]
-        [Required(ErrorMessage = "Ngày sinh không được để trống")]
+        [DisplayName("Ngay sinh")]
+        [Required(ErrorMessage = "Ngay sinh khong duoc de trong")]
         [DataType(DataType.Date)]
         public DateTime NhaBirthday { get; set; } = DateTime.Today;
     }
 }
+

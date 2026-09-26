@@ -1,0 +1,55 @@
+﻿@model NhaLesson10EFDbFirst.Models.NhaMember
+
+@{
+    ViewData["Title"] = "Details - Chi tiet thanh vien";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>NhaMember</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaUserName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaUserName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaPassword)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaPassword)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaFullName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaFullName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaEmail)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaEmail)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaPhone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaPhone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NhaStatus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NhaStatus)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning">Edit</a> |
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+

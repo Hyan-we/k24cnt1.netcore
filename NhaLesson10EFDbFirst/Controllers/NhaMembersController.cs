@@ -32,14 +32,14 @@ namespace NhaLesson10EFDbFirst.Controllers
                 return NotFound();
             }
 
-            var NhaMember = await _context.NhaMembers
+            var nhaMember = await _context.NhaMembers
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (NhaMember == null)
+            if (nhaMember == null)
             {
                 return NotFound();
             }
 
-            return View(NhaMember);
+            return View(nhaMember);
         }
 
         // GET: NhaMembers/Create
@@ -53,15 +53,15 @@ namespace NhaLesson10EFDbFirst.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,NhaUserName,NhaPassword,NhaFullName,NhaEmail,NhaPhone,NhaStatus")] NhaMember NhaMember)
+        public async Task<IActionResult> Create([Bind("Id,NhaUserName,NhaPassword,NhaFullName,NhaEmail,NhaPhone,NhaStatus")] NhaMember nhaMember)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(NhaMember);
+                _context.Add(nhaMember);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(NhaMember);
+            return View(nhaMember);
         }
 
         // GET: NhaMembers/Edit/5
@@ -72,12 +72,12 @@ namespace NhaLesson10EFDbFirst.Controllers
                 return NotFound();
             }
 
-            var NhaMember = await _context.NhaMembers.FindAsync(id);
-            if (NhaMember == null)
+            var nhaMember = await _context.NhaMembers.FindAsync(id);
+            if (nhaMember == null)
             {
                 return NotFound();
             }
-            return View(NhaMember);
+            return View(nhaMember);
         }
 
         // POST: NhaMembers/Edit/5
@@ -85,9 +85,9 @@ namespace NhaLesson10EFDbFirst.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(long id, [Bind("Id,NhaUserName,NhaPassword,NhaFullName,NhaEmail,NhaPhone,NhaStatus")] NhaMember NhaMember)
+        public async Task<IActionResult> Edit(long id, [Bind("Id,NhaUserName,NhaPassword,NhaFullName,NhaEmail,NhaPhone,NhaStatus")] NhaMember nhaMember)
         {
-            if (id != NhaMember.Id)
+            if (id != nhaMember.Id)
             {
                 return NotFound();
             }
@@ -96,12 +96,12 @@ namespace NhaLesson10EFDbFirst.Controllers
             {
                 try
                 {
-                    _context.Update(NhaMember);
+                    _context.Update(nhaMember);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!NhaMemberExists(NhaMember.Id))
+                    if (!NhaMemberExists(nhaMember.Id))
                     {
                         return NotFound();
                     }
@@ -112,7 +112,7 @@ namespace NhaLesson10EFDbFirst.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(NhaMember);
+            return View(nhaMember);
         }
 
         // GET: NhaMembers/Delete/5
@@ -123,14 +123,14 @@ namespace NhaLesson10EFDbFirst.Controllers
                 return NotFound();
             }
 
-            var NhaMember = await _context.NhaMembers
+            var nhaMember = await _context.NhaMembers
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (NhaMember == null)
+            if (nhaMember == null)
             {
                 return NotFound();
             }
 
-            return View(NhaMember);
+            return View(nhaMember);
         }
 
         // POST: NhaMembers/Delete/5
@@ -138,10 +138,10 @@ namespace NhaLesson10EFDbFirst.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(long id)
         {
-            var NhaMember = await _context.NhaMembers.FindAsync(id);
-            if (NhaMember != null)
+            var nhaMember = await _context.NhaMembers.FindAsync(id);
+            if (nhaMember != null)
             {
-                _context.NhaMembers.Remove(NhaMember);
+                _context.NhaMembers.Remove(nhaMember);
             }
 
             await _context.SaveChangesAsync();

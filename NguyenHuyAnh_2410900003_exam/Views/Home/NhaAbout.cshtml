@@ -1,0 +1,113 @@
+@{
+    ViewData["Title"] = "Thong Tin Sinh Vien - NhaAbout";
+}
+
+<div class="container py-4">
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb bg-light p-3 rounded-3 border">
+            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index" class="text-decoration-none"><i class="bi bi-house-door-fill"></i> Trang chu</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Thong tin sinh vien</li>
+        </ol>
+    </nav>
+
+    <div class="row g-4">
+        <div class="col-lg-4">
+            <div class="card shadow-sm border-0 rounded-4 overflow-hidden text-center h-100">
+                <div class="bg-primary bg-gradient py-5 text-white position-relative">
+                    <div class="rounded-circle bg-white text-primary d-inline-flex align-items-center justify-content-center shadow-lg border border-3 border-white mb-3" style="width: 110px; height: 110px; font-size: 2.8rem; font-weight: 700;">
+                        <span>NHA</span>
+                    </div>
+                    <h4 class="fw-bold mb-1">@ViewBag.FullName</h4>
+                    <span class="badge bg-light text-dark px-3 py-2 rounded-pill fs-6 shadow-sm">
+                        <i class="bi bi-person-badge-fill me-1"></i> MSSV: @ViewBag.StudentId
+                    </span>
+                </div>
+                <div class="card-body p-4">
+                    <div class="d-flex justify-content-center gap-2 mb-3">
+                        <span class="badge bg-success-subtle text-success border border-success-subtle px-3 py-2 rounded-pill">
+                            <i class="bi bi-check-circle-fill me-1"></i> Sinh vien chinh quy
+                        </span>
+                        <span class="badge bg-info-subtle text-info border border-info-subtle px-3 py-2 rounded-pill">
+                            <i class="bi bi-code-slash me-1"></i> ASP.NET Core MVC
+                        </span>
+                    </div>
+
+                    <ul class="list-group list-group-flush text-start small">
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0 py-2">
+                            <span class="text-muted"><i class="bi bi-envelope-fill me-2 text-primary"></i>Email:</span>
+                            <span class="fw-semibold">@ViewBag.Email</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0 py-2">
+                            <span class="text-muted"><i class="bi bi-telephone-fill me-2 text-success"></i>So dien thoai:</span>
+                            <span class="fw-semibold">@ViewBag.Phone</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0 py-2">
+                            <span class="text-muted"><i class="bi bi-mortarboard-fill me-2 text-warning"></i>Khoa lop:</span>
+                            <span class="fw-semibold">@ViewBag.Class</span>
+                        </li>
+                    </ul>
+
+                    <div class="mt-4">
+                        <a asp-controller="NhaStudents" asp-action="Index" class="btn btn-primary w-100 py-2 rounded-pill shadow-sm fw-semibold">
+                            <i class="bi bi-people-fill me-2"></i>Xem Danh Sach Sinh Vien
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="card shadow-sm border-0 rounded-4">
+                <div class="card-header bg-white border-bottom py-3">
+                    <h5 class="card-title mb-0 text-primary fw-bold">
+                        <i class="bi bi-card-heading me-2"></i>Ho So Chi Tiet Sinh Vien
+                    </h5>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="p-3 bg-light rounded-3 border">
+                                <small class="text-muted d-block mb-1">Ho va ten</small>
+                                <span class="fs-5 fw-bold text-dark">@ViewBag.FullName</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-3 bg-light rounded-3 border">
+                                <small class="text-muted d-block mb-1">Ma sinh vien</small>
+                                <span class="fs-5 fw-bold text-primary">@ViewBag.StudentId</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-3 bg-light rounded-3 border">
+                                <small class="text-muted d-block mb-1">Gioi tinh</small>
+                                <span class="fs-5 fw-semibold text-dark">
+                                    <i class="bi bi-gender-male text-primary me-1"></i>@ViewBag.Gender
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-3 bg-light rounded-3 border">
+                                <small class="text-muted d-block mb-1">Ngay sinh</small>
+                                <span class="fs-5 fw-semibold text-dark">
+                                    <i class="bi bi-calendar-event me-1 text-danger"></i>@(((DateTime)ViewBag.BirthDay).ToString("dd/MM/yyyy"))
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-3 bg-light rounded-3 border">
+                                <small class="text-muted d-block mb-1">Hoc phan / Mon hoc</small>
+                                <span class="fs-6 fw-semibold text-dark">@ViewBag.Subject</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-3 bg-light rounded-3 border">
+                                <small class="text-muted d-block mb-1">Ten ung dung</small>
+                                <span class="fs-6 fw-bold text-success">@ViewBag.ExamName</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

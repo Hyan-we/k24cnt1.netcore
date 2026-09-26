@@ -1,7 +1,7 @@
-@model NhaLesson09Annotation.Models.DataModels.NhaMember
+﻿@model NhaLesson09Annotation.Models.DataModels.NhaMember
 
 @{
-    ViewData["Title"] = "Chỉnh sửa thành viên";
+    ViewData["Title"] = "Chinh sua thanh vien";
 }
 
 <h1 class="my-3">@ViewData["Title"]</h1>
@@ -55,8 +55,8 @@
             </div>
 
             <div class="form-group mb-3">
-                <input type="submit" value="Lưu thay đổi" class="btn btn-primary" />
-                <a asp-action="Index" class="btn btn-secondary ms-2">Quay lại danh sách</a>
+                <input type="submit" value="Luu thay doi" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary ms-2">Quay lai danh sach</a>
             </div>
         </form>
     </div>
@@ -65,3 +65,4 @@
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+

@@ -1,7 +1,7 @@
 ﻿@model NhaLesson08Models.Models.NhaMember
 
 @{
-    ViewData["Title"] = "Thông tin chi tiết thành viên";
+    ViewData["Title"] = "Thong tin chi tiet thanh vien";
 }
 
 <h1>@ViewData["Title"]</h1>
@@ -43,6 +43,7 @@
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Sửa", "NhaEdit", new { id = Model.NhaMemberId }) |
+    @Html.ActionLink("Sua", "NhaEdit", new { id = Model.NhaMemberId }) |
     <a asp-action="Index">Back to List</a>
 </div>
+

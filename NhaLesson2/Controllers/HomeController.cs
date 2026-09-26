@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using NhaLesson2.Models;
 using System.Diagnostics;
 
@@ -23,3 +23,4 @@ namespace NhaLesson2.Controllers
         }
     }
 }
+

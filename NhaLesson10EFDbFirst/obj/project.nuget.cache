@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dy8XgJ47pOQ=",
+  "dgSpecHash": "F7ON0YQw4/s=",
   "success": true,
-  "projectFilePath": "C:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\NhaLesson10EFDbFirst.csproj",
+  "projectFilePath": "c:\\K24CNT1\\k24cnt1.netcore\\NhaLesson10EFDbFirst\\NhaLesson10EFDbFirst.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",

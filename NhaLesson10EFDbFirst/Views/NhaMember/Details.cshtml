@@ -1,7 +1,7 @@
 ﻿@model NhaLesson10EFDbFirst.Models.NhaMember
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Details - Chi tiet thanh vien";
 }
 
 <h1>Details</h1>
@@ -49,6 +49,7 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning">Edit</a> |
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </div>
+

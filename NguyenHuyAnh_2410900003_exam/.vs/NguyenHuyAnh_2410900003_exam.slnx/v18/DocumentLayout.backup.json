@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nguyenhuyanh_2410900003_exam\\controllers\\nhastudentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|solutionrelative:controllers\\nhastudentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nguyenhuyanh_2410900003_exam\\models\\nhastudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|solutionrelative:models\\nhastudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nguyenhuyanh_2410900003_exam\\views\\home\\nhaabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|solutionrelative:views\\home\\nhaabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nguyenhuyanh_2410900003_exam\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nguyenhuyanh_2410900003_exam\\views\\nhastudents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|solutionrelative:views\\nhastudents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nguyenhuyanh_2410900003_exam\\views\\nhastudents\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|solutionrelative:views\\nhastudents\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nguyenhuyanh_2410900003_exam\\views\\nhastudents\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|solutionrelative:views\\nhastudents\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nguyenhuyanh_2410900003_exam\\views\\nhastudents\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|solutionrelative:views\\nhastudents\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nguyenhuyanh_2410900003_exam\\views\\nhastudents\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|solutionrelative:views\\nhastudents\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nguyenhuyanh_2410900003_exam\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nguyenhuyanh_2410900003_exam\\models\\nhadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|solutionrelative:models\\nhadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|c:\\k24cnt1\\k24cnt1.netcore\\nguyenhuyanh_2410900003_exam\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DDA01DF-C234-32C6-E591-284769CB249D}|NguyenHuyAnh_2410900003_exam.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\NhaStudents\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhaStudents\\Index.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\NhaStudents\\Index.cshtml",
+              "RelativeToolTip": "Views\\NhaStudents\\Index.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T01:45:26.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\NhaStudents\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhaStudents\\Edit.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\NhaStudents\\Edit.cshtml",
+              "RelativeToolTip": "Views\\NhaStudents\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T01:45:24.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\NhaStudents\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhaStudents\\Details.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\NhaStudents\\Details.cshtml",
+              "RelativeToolTip": "Views\\NhaStudents\\Details.cshtml",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T01:45:17.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NhaAbout.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\Home\\NhaAbout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\NhaAbout.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\Home\\NhaAbout.cshtml",
+              "RelativeToolTip": "Views\\Home\\NhaAbout.cshtml",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T01:44:56.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T01:44:49.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NhaStudentsController.cs",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Controllers\\NhaStudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhaStudentsController.cs",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Controllers\\NhaStudentsController.cs",
+              "RelativeToolTip": "Controllers\\NhaStudentsController.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAAAJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T01:43:17.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NhaStudent.cs",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Models\\NhaStudent.cs",
+              "RelativeDocumentMoniker": "Models\\NhaStudent.cs",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Models\\NhaStudent.cs",
+              "RelativeToolTip": "Models\\NhaStudent.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA6wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T01:44:45.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\NhaStudents\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhaStudents\\Delete.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\NhaStudents\\Delete.cshtml",
+              "RelativeToolTip": "Views\\NhaStudents\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T01:45:13.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\NhaStudents\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhaStudents\\Create.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\NhaStudents\\Create.cshtml",
+              "RelativeToolTip": "Views\\NhaStudents\\Create.cshtml",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T01:45:04.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T01:45:02.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NhaDbContext.cs",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Models\\NhaDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\NhaDbContext.cs",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Models\\NhaDbContext.cs",
+              "RelativeToolTip": "Models\\NhaDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T01:44:33.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\K24CNT1\\k24cnt1.netcore\\NguyenHuyAnh_2410900003_exam\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T01:43:13.886Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

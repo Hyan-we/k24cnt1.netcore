@@ -1,4 +1,4 @@
-namespace NhaLesson10EFDbFirst.Models
+﻿namespace NhaLesson10EFDbFirst.Models
 {
     public class ErrorViewModel
     {
@@ -7,3 +7,4 @@ namespace NhaLesson10EFDbFirst.Models
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
+

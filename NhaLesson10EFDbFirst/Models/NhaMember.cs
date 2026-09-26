@@ -19,3 +19,4 @@ public partial class NhaMember
 
     public bool? NhaStatus { get; set; }
 }
+

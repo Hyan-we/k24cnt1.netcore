@@ -21,7 +21,7 @@ namespace NhaLesson08Models.Controllers
                 NhaMemberId = Guid.NewGuid().ToString(),
                 NhaUserName = "tranthib",
                 NhaPassword = "SecurePass456#",
-                NhaFullName = "Trần Thị B",
+                NhaFullName = "Tran Thi B",
                 NhaEmail = "tranthib@outlook.com"
             },
             new NhaMember
@@ -29,12 +29,12 @@ namespace NhaLesson08Models.Controllers
                 NhaMemberId = Guid.NewGuid().ToString(),
                 NhaUserName = "levanc",
                 NhaPassword = "MyPassword789$",
-                NhaFullName = "Lê Văn C",
+                NhaFullName = "Le Van C",
                 NhaEmail = "levanc@company.com"
             }
         };
 
-        // GET: Danh sách thành viên
+        // GET: Danh sach thanh vien
         public IActionResult Index()
         {
             return View(_members);
@@ -112,3 +112,4 @@ namespace NhaLesson08Models.Controllers
         }
     }
 }
+

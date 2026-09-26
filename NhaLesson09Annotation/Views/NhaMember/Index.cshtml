@@ -1,13 +1,13 @@
-@model IEnumerable<NhaLesson09Annotation.Models.DataModels.NhaMember>
+﻿@model IEnumerable<NhaLesson09Annotation.Models.DataModels.NhaMember>
 
 @{
-    ViewData["Title"] = "Danh sách thành viên";
+    ViewData["Title"] = "Danh sach thanh vien";
 }
 
 <h1 class="my-3">@ViewData["Title"]</h1>
 
 <p>
-    <a asp-action="Create" class="btn btn-primary">Tạo mới thành viên</a>
+    <a asp-action="Create" class="btn btn-primary">Tao moi thanh vien</a>
 </p>
 <table class="table table-bordered table-striped table-hover">
     <thead class="table-dark">
@@ -33,7 +33,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.NhaBirthday)
             </th>
-            <th>Thao tác</th>
+            <th>Thao tac</th>
         </tr>
     </thead>
     <tbody>
@@ -63,9 +63,9 @@
                 @item.NhaBirthday.ToString("dd/MM/yyyy")
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.NhaMemberId" class="btn btn-sm btn-outline-warning">Sửa</a>
-                <a asp-action="Details" asp-route-id="@item.NhaMemberId" class="btn btn-sm btn-outline-info">Chi tiết</a>
-                <a asp-action="Delete" asp-route-id="@item.NhaMemberId" class="btn btn-sm btn-outline-danger">Xóa</a>
+                <a asp-action="Edit" asp-route-id="@item.NhaMemberId" class="btn btn-sm btn-outline-warning">Sua</a>
+                <a asp-action="Details" asp-route-id="@item.NhaMemberId" class="btn btn-sm btn-outline-info">Chi tiet</a>
+                <a asp-action="Delete" asp-route-id="@item.NhaMemberId" class="btn btn-sm btn-outline-danger">Xoa</a>
             </td>
         </tr>
     }
@@ -73,8 +73,9 @@
 else
 {
     <tr>
-        <td colspan="8" class="text-center text-muted">Chưa có thành viên nào trong danh sách.</td>
+        <td colspan="8" class="text-center text-muted">Chua co thanh vien nao trong danh sach.</td>
     </tr>
 }
     </tbody>
 </table>
+

@@ -10,12 +10,12 @@ namespace NhaLesson04lab.Controllers
             new NhaAccount
             {
                 Id = 1,
-                Name = "Nguyễn Huy Anh",
+                Name = "Nguyen Huy Anh",
                 Email = "huyanh@gmail.com",
                 Phone = "0987654321",
                 Avatar = "/images/1.png",
-                Address = "Hà Nội",
-                Bio = "Sinh viên Công nghệ Thông tin",
+                Address = "Ha Noi",
+                Bio = "Sinh vien Cong nghe Thong tin",
                 Gender = 1,
                 Birthday = new DateTime(2005, 5, 10)
             },
@@ -23,12 +23,12 @@ namespace NhaLesson04lab.Controllers
             new NhaAccount
             {
                 Id = 2,
-                Name = "Nguyễn Tùng Dương",
+                Name = "Nguyen Tung Duong",
                 Email = "tungduong@gmail.com",
                 Phone = "0987654322",
                 Avatar = "/images/2.png",
-                Address = "Hà Nội",
-                Bio = "Yêu thích lập trình",
+                Address = "Ha Noi",
+                Bio = "Yeu thich lap trinh",
                 Gender = 1,
                 Birthday = new DateTime(2004, 8, 15)
             },
@@ -36,12 +36,12 @@ namespace NhaLesson04lab.Controllers
             new NhaAccount
             {
                 Id = 3,
-                Name = "Trịnh Hoàng Bách",
+                Name = "Trinh Hoang Bach",
                 Email = "hoangbach@gmail.com",
                 Phone = "0987654323",
                 Avatar = "/images/3.png",
-                Address = "Hà Nội",
-                Bio = "Sinh viên ngành CNTT",
+                Address = "Ha Noi",
+                Bio = "Sinh vien nganh CNTT",
                 Gender = 1,
                 Birthday = new DateTime(2005, 1, 20)
             },
@@ -49,12 +49,12 @@ namespace NhaLesson04lab.Controllers
             new NhaAccount
             {
                 Id = 4,
-                Name = "Nguyễn Minh Anh",
+                Name = "Nguyen Minh Anh",
                 Email = "minhanh@gmail.com",
                 Phone = "0987654324",
                 Avatar = "/images/4.png",
-                Address = "Hà Nội",
-                Bio = "Thích thiết kế website",
+                Address = "Ha Noi",
+                Bio = "Thich thiet ke website",
                 Gender = 0,
                 Birthday = new DateTime(2005, 3, 12)
             },
@@ -62,12 +62,12 @@ namespace NhaLesson04lab.Controllers
             new NhaAccount
             {
                 Id = 5,
-                Name = "Trần Thu Hà",
+                Name = "Tran Thu Ha",
                 Email = "thuha@gmail.com",
                 Phone = "0987654325",
                 Avatar = "/images/5.png",
-                Address = "Hà Nội",
-                Bio = "Yêu thích công nghệ",
+                Address = "Ha Noi",
+                Bio = "Yeu thich cong nghe",
                 Gender = 0,
                 Birthday = new DateTime(2004, 11, 25)
             }

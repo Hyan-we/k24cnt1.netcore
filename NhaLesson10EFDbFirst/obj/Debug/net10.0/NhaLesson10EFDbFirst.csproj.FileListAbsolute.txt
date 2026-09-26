@@ -224,7 +224,6 @@ C:\K24CNT1\k24cnt1.netcore\NhaLesson10EFDbFirst\obj\Debug\net10.0\staticwebasset
 C:\K24CNT1\k24cnt1.netcore\NhaLesson10EFDbFirst\obj\Debug\net10.0\staticwebassets.development.json
 C:\K24CNT1\k24cnt1.netcore\NhaLesson10EFDbFirst\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\K24CNT1\k24cnt1.netcore\NhaLesson10EFDbFirst\obj\Debug\net10.0\swae.build.ex.cache
-C:\K24CNT1\k24cnt1.netcore\NhaLesson10EFDbFirst\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\K24CNT1\k24cnt1.netcore\NhaLesson10EFDbFirst\obj\Debug\net10.0\NhaLesso.1471C425.Up2Date
 C:\K24CNT1\k24cnt1.netcore\NhaLesson10EFDbFirst\obj\Debug\net10.0\NhaLesson10EFDbFirst.dll
 C:\K24CNT1\k24cnt1.netcore\NhaLesson10EFDbFirst\obj\Debug\net10.0\refint\NhaLesson10EFDbFirst.dll

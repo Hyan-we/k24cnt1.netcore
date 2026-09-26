@@ -1,0 +1,113 @@
+@model NguyenHuyAnh_2410900003_exam.Models.NhaStudent
+
+@{
+    ViewData["Title"] = "Them Moi Sinh Vien - NhaStudent";
+}
+
+<div class="container py-4">
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb bg-light p-3 rounded-3 border">
+            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index" class="text-decoration-none"><i class="bi bi-house-door-fill"></i> Trang chu</a></li>
+            <li class="breadcrumb-item"><a asp-action="Index" class="text-decoration-none">Danh sach sinh vien</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Them moi sinh vien</li>
+        </ol>
+    </nav>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+            <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                <div class="card-header bg-primary text-white py-3 px-4">
+                    <h5 class="card-title mb-0 fw-bold">
+                        <i class="bi bi-person-plus-fill me-2"></i>Them Moid Sinh Vien
+                    </h5>
+                </div>
+
+                <div class="card-body p-4">
+                    <form asp-action="Create" method="post">
+                        @Html.AntiForgeryToken()
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger rounded-3 small mb-3"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="NhaName" class="form-label fw-semibold">
+                                <i class="bi bi-person-fill text-primary me-1"></i>Ho va ten sinh vien <span class="text-danger">*</span>
+                            </label>
+                            <input asp-for="NhaName" class="form-control form-control-lg rounded-3 fs-6" placeholder="Nguyen Huy Anh" />
+                            <span asp-validation-for="NhaName" class="text-danger small"></span>
+                        </div>
+
+                        <div class="row g-3 mb-3">
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold">
+                                    <i class="bi bi-gender-ambiguous text-primary me-1"></i>Gioi tinh <span class="text-danger">*</span>
+                                </label>
+                                <div class="d-flex gap-4 pt-1">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" asp-for="NhaGender" value="true" id="genderMale" checked />
+                                        <label class="form-check-label" for="genderMale">
+                                            <i class="bi bi-gender-male text-primary"></i> Nam
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" asp-for="NhaGender" value="false" id="genderFemale" />
+                                        <label class="form-check-label" for="genderFemale">
+                                            <i class="bi bi-gender-female text-danger"></i> Nu
+                                        </label>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="NhaGender" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="NhaBirthDay" class="form-label fw-semibold">
+                                    <i class="bi bi-calendar-event-fill text-danger me-1"></i>Ngay sinh <span class="text-danger">*</span>
+                                </label>
+                                <input asp-for="NhaBirthDay" type="date" class="form-control form-control-lg rounded-3 fs-6" />
+                                <span asp-validation-for="NhaBirthDay" class="text-danger small"></span>
+                            </div>
+                        </div>
+
+                        <div class="row g-3 mb-3">
+                            <div class="col-md-6">
+                                <label asp-for="NhaEmail" class="form-label fw-semibold">
+                                    <i class="bi bi-envelope-fill text-primary me-1"></i>Dia chi Email <span class="text-danger">*</span>
+                                </label>
+                                <input asp-for="NhaEmail" type="email" class="form-control form-control-lg rounded-3 fs-6" placeholder="student@example.com" />
+                                <span asp-validation-for="NhaEmail" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="NhaPhone" class="form-label fw-semibold">
+                                    <i class="bi bi-telephone-fill text-success me-1"></i>So dien thoai <span class="text-danger">*</span>
+                                </label>
+                                <input asp-for="NhaPhone" type="tel" class="form-control form-control-lg rounded-3 fs-6" placeholder="0912345678" />
+                                <span asp-validation-for="NhaPhone" class="text-danger small"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-4 p-3 bg-light rounded-3 border">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" asp-for="NhaActive" id="activeSwitch" checked />
+                                <label class="form-check-label fw-semibold text-dark" for="activeSwitch">
+                                    Kich hoat trang thai dang hoat dong
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center pt-2">
+                            <a asp-action="Index" class="btn btn-outline-secondary px-4 py-2 rounded-pill">
+                                <i class="bi bi-arrow-left me-1"></i>Quay lai
+                            </a>
+                            <button type="submit" class="btn btn-primary px-4 py-2 rounded-pill fw-semibold shadow-sm">
+                                <i class="bi bi-check-circle-fill me-1"></i>Luu
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

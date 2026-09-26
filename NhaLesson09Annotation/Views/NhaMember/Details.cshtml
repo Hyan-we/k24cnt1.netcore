@@ -1,7 +1,7 @@
-@model NhaLesson09Annotation.Models.DataModels.NhaMember
+﻿@model NhaLesson09Annotation.Models.DataModels.NhaMember
 
 @{
-    ViewData["Title"] = "Chi tiết thành viên";
+    ViewData["Title"] = "Chi tiet thanh vien";
 }
 
 <h1 class="my-3">@ViewData["Title"]</h1>
@@ -49,6 +49,7 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.NhaMemberId" class="btn btn-warning">Sửa</a>
-    <a asp-action="Index" class="btn btn-secondary ms-2">Quay lại danh sách</a>
+    <a asp-action="Edit" asp-route-id="@Model.NhaMemberId" class="btn btn-warning">Sua</a>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Quay lai danh sach</a>
 </div>
+
